@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Plains",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Rivers",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Mountains",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Woods",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Roads",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Cities",
+    "base": true,
+    "description": ""
+  },
+  {
+    "name": "Seas",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Headquarters",
+    "base": true,
+    "description": ""
+  },
+  {
+    "name": "Airports",
+    "base": true,
+    "description": ""
+  },
+  {
+    "name": "Ports",
+    "base": true,
+    "description": ""
+  },
+  {
+    "name": "Bridges",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Shoals",
+    "base": false,
+    "description": ""
+  },
+  {
+    "name": "Ground Bases",
+    "base": true,
+    "description": ""
+  },
+  {
+    "name": "Reefs",
+    "base": false,
+    "description": ""
+  }
+]

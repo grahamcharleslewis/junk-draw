@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @sales_and_finance %>
+
+<div>
+  <%= link_to "Edit this sales and finance", edit_sales_and_finance_path(@sales_and_finance) %> |
+  <%= link_to "Back to sales and finances", sales_and_finances_path %>
+
+  <%= button_to "Destroy this sales and finance", @sales_and_finance, method: :delete %>
+</div>

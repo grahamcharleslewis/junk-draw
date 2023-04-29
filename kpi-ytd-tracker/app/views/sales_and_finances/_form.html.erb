@@ -1,0 +1,87 @@
+<%= form_with(model: sales_and_finance) do |form| %>
+  <% if sales_and_finance.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(sales_and_finance.errors.count, "error") %> prohibited this sales_and_finance from being saved:</h2>
+
+      <ul>
+        <% sales_and_finance.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :week_id, style: "display: block" %>
+    <%= form.number_field :week_id %>
+  </div>
+
+  <div>
+    <%= form.label :lfl, style: "display: block" %>
+    <%= form.text_field :lfl %>
+  </div>
+
+  <div>
+    <%= form.label :total_weekly_turnover, style: "display: block" %>
+    <%= form.text_field :total_weekly_turnover %>
+  </div>
+
+  <div>
+    <%= form.label :delivery_turnover, style: "display: block" %>
+    <%= form.text_field :delivery_turnover %>
+  </div>
+
+  <div>
+    <%= form.label :turnover, style: "display: block" %>
+    <%= form.text_field :turnover %>
+  </div>
+
+  <div>
+    <%= form.label :budget, style: "display: block" %>
+    <%= form.text_field :budget %>
+  </div>
+
+  <div>
+    <%= form.label :footfall, style: "display: block" %>
+    <%= form.text_field :footfall %>
+  </div>
+
+  <div>
+    <%= form.label :average_spend, style: "display: block" %>
+    <%= form.text_field :average_spend %>
+  </div>
+
+  <div>
+    <%= form.label :comments, style: "display: block" %>
+    <%= form.text_area :comments %>
+  </div>
+
+  <div>
+    <%= form.label :hours_last_year, style: "display: block" %>
+    <%= form.text_field :hours_last_year %>
+  </div>
+
+  <div>
+    <%= form.label :hours_this_year, style: "display: block" %>
+    <%= form.text_field :hours_this_year %>
+  </div>
+
+  <div>
+    <%= form.label :spmh, style: "display: block" %>
+    <%= form.text_field :spmh %>
+  </div>
+
+  <div>
+    <%= form.label :returns, style: "display: block" %>
+    <%= form.text_field :returns %>
+  </div>
+
+  <div>
+    <%= form.label :stock_balance, style: "display: block" %>
+    <%= form.text_field :stock_balance %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

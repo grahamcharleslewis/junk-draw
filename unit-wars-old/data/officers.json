@@ -1,0 +1,56 @@
+[
+  {
+    "name": "Andy",
+    "skill": "",
+    "power": "Hyper Repair",
+    "description": ""
+  },
+  {
+    "name": "Max",
+    "skill": "",
+    "power": "Max Force",
+    "description": ""
+  },
+  {
+    "name": "Sami",
+    "skill": "",
+    "power": "Double Time",
+    "description": ""
+  },
+  {
+    "name": "Grit",
+    "skill": "",
+    "power": "Snipe Attack",
+    "description": ""
+  },
+  {
+    "name": "Olaf",
+    "skill": "",
+    "power": "Blizzard",
+    "description": ""
+  },
+  {
+    "name": "Eagle",
+    "skill": "",
+    "power": "Lightning Strike",
+    "description": ""
+  },
+  {
+    "name": "Drake",
+    "skill": "",
+    "power": "Tsunami",
+    "description": ""
+  },
+  {
+    "name": "Kanbei",
+    "skill": "",
+    "power": "Morale Boost",
+    "description": ""
+  },
+  {
+    "name": "Sonja",
+    "skill": "",
+    "power": "Enhanced Vision",
+    "description": ""
+  }
+]

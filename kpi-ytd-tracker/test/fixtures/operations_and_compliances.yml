@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  week_id: 1
+  essential_fs_and_legal: 1.5
+  retail_ops: 1.5
+  health_and_safety: 1.5
+  uber_rating: 1.5
+  just_eat: 1.5
+  eho: 1.5
+
+two:
+  week_id: 1
+  essential_fs_and_legal: 1.5
+  retail_ops: 1.5
+  health_and_safety: 1.5
+  uber_rating: 1.5
+  just_eat: 1.5
+  eho: 1.5

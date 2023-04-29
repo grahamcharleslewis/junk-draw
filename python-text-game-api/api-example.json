@@ -1,0 +1,97 @@
+{
+  "name": "Labyrinth",
+  "description": "Avoid the Minotaur's and get out of the fiendish maze.",
+  "maze": {
+    "2:0": { 
+      "entrance": true, 
+      "exit": false,
+      "alive": true,
+      "description": "You find yourself in a damp, dark, stone walled hole in the ground. Rats scurry around your feet. The stench of Minotaur hangs heavy in the air. A tourch is fixed to the wall to your right - you take it from it's housing. This helps you see better, but casts eerie shadows across the walls. You would swear some are moving!",
+      "nodes": ["2:1"]
+    },
+    "2:1": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "What was that!!! You hear something in the dark, but you don't know which direction it came from. You move the tourch around in all directions. There is nothing. Wait! There it is again. You feel uneasy. It could be the dark heightening your senses, but you feel like stench of Minotaur is getting stronger.",
+      "nodes": ["2:0", "1:1", "2:2", "3:1"]
+    },
+    "1:1": {
+      "entrance": false,
+      "exit": false,
+      "alive": false,
+      "description": "A Minotaur. Before you can do anything, the Minotaur bites and tears into your flesh. You feel only pain, as your blood drains from your body - everything goes black.",
+      "nodes": ["2:1"]
+    },
+    "2:2": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "You can't help feeling like you are being watched. But who, and from where? In the shadows, something - or someone - is moving slowly. You wave the torch in it's direction. Nothing! It's almost like something is hunting you.",
+      "nodes": ["2:1", "2:3"]
+    },
+    "3:1": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "You feel very uneasy. The stench of Minotaur is all around you. Get out! Get out now!!! You run...",
+      "nodes": ["2:1", "4:1"]
+    },
+    "4:1": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "Straight into a Minotaur. It could be the fear, the adrenaline, or just shear luck but you fight and fight until the Minotaur stops moving. You are injured but alive. The Minotaur is laying on the ground, you can see it's chest rise and fall in jerky shallow movements. You decide not to hang around.",
+      "nodes": ["3:1"]
+    },
+    "2:3": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "You feel almost calm, and - yes, the stench of Minotaur is not as bad here. Or is that just your imagination playing tricks on you?",
+      "nodes": ["1:3", "3:3"]
+    },
+    "3:3": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "Is that light you can see? Unsure which direction to go in - you proceed with caution.",
+      "nodes": ["4:3"]
+    },
+    "4:3": {
+      "entrance": false,
+      "exit": true,
+      "alive": true,
+      "description": "Congratulations! You made it out alive.",
+      "nodes": []
+    },
+    "1:3": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "It's darker and damper here. You can barely see anything. A movement! Yes, defintely a movement. You ready yourself for combat then...",
+      "nodes": ["1:4", "2:3", "0:3"]
+    },
+    "1:4": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "Ok, just your nerves getting the better of you. The rats don't help as they run over your sandaled feet. One gives you a quick nip on the toe - you kick it away and shudder.",
+      "nodes": ["0:4"]
+    },
+    "0:3": {
+      "entrance": false,
+      "exit": false,
+      "alive": true,
+      "description": "Nothing! There's nothing here. Perhaps you were imagining things.",
+      "nodes": ["0:4"]
+    },
+    "0:4": {
+      "entrance": false,
+      "exit": false,
+      "alive": false,
+      "description": "A Minotaur. It deftly removes your head with a swoosh of it's massive double-headed axe.",
+      "nodes": ["1:4", "0:3"]
+    }
+  }
+}

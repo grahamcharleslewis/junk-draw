@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @operations_and_compliance %>
+
+<div>
+  <%= link_to "Edit this operations and compliance", edit_operations_and_compliance_path(@operations_and_compliance) %> |
+  <%= link_to "Back to operations and compliances", operations_and_compliances_path %>
+
+  <%= button_to "Destroy this operations and compliance", @operations_and_compliance, method: :delete %>
+</div>

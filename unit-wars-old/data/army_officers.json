@@ -1,0 +1,49 @@
+[
+  {
+    "name": "Orange Star",
+    "officers": [
+      {
+        "name": "Andy"
+      },
+      {
+        "name": "Max"
+      },
+      {
+        "name": "Sami"
+      }
+    ]
+  },
+  {
+    "name": "Blue Moon",
+    "officers": [
+      {
+        "name": "Grit"
+      },
+      {
+        "name": "Olaf"
+      }
+    ]
+  },
+  {
+    "name": "Green Earth",
+    "officers": [
+      {
+        "name": "Eagle"
+      },
+      {
+        "name": "Drake"
+      }
+    ]
+  },
+  {
+    "name": "Yellow Comet",
+    "officers": [
+      {
+        "name": "Kanbei"
+      },
+      {
+        "name": "Sonja"
+      }
+    ]
+  }
+]

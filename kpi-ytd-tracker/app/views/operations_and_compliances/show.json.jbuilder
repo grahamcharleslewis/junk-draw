@@ -1,0 +1,1 @@
+json.partial! "operations_and_compliances/operations_and_compliance", operations_and_compliance: @operations_and_compliance

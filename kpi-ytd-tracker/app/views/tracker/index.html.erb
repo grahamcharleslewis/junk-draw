@@ -1,0 +1,14 @@
+<h1>Tracker</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><%= render "sales_and_finances/form", sales_and_finance: @sales_and_finance %></td>
+      <td>
+        <%= render "operations_and_compliances/form", operations_and_compliance: @operations_and_compliance %>
+        <%= render "people/form", person: @person %>
+        <%= render "targets/form", target: @target %>
+      </td>
+    </tr>
+  </tbody>
+</table>

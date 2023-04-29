@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Operations and compliances</h1>
+
+<div id="operations_and_compliances">
+  <% @operations_and_compliances.each do |operations_and_compliance| %>
+    <%= render operations_and_compliance %>
+    <p>
+      <%= link_to "Show this operations and compliance", operations_and_compliance %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New operations and compliance", new_operations_and_compliance_path %>

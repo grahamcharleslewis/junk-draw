@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KPI YTD Tracker</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">    
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <%= link_to "Home", root_path %>
+        <%= link_to "Tracker", tracker_index_path %>
+        <%= link_to "Weeks", weeks_path %>
+        <%= link_to "Sales & Finance", sales_and_finances_path %>
+        <%= link_to "Operations & Compliance", operations_and_compliances_path %>
+        <%= link_to "People", people_path %>
+        <%= link_to "Targets", targets_path %>
+      </nav>    
+    </header>
+
+    <%= yield %>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+AllCops:
+  NewCops: enable
+  Include:
+    - "task.rb"
+    - "spec/task_spec.rb"
+  Exclude: 
+    - "bin/**/*"
+
+Style/Documentation:
+  Enabled: false

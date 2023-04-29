@@ -1,0 +1,59 @@
+rails g scaffold week week_no:integer date_commencing:date
+
+rails g scaffold sales_and_finance week_id:integer lfl:float total_weekly_turnover:float delivery_turnover:float turnover:float budget:float footfall:float average_spend:float comments:text hours_last_year:float hours_this_year:float spmh:float returns:float stock_balance:float
+
+rails g scaffold operations_and_compliance week_id:integer essential_fs_and_legal:float retail_ops:float health_and_safety:float uber_rating:float just_eat:float eho:float
+
+rails g scaffold people week_id:integer leavers:float number_of_staff:float staffing_level:float e_learning:float
+
+rails g scaffold target week_id:integer klass_name:string klass_attribute:string target:float
+
+
+rails d scaffold week
+
+rails d scaffold sales_and_finance
+
+rails d scaffold operations_and_compliance
+
+rails d scaffold people
+
+rails d scaffold target
+
+
+class OperationsAndCompliance < ApplicationRecord
+  belongs_to :week
+end
+
+class Person < ApplicationRecord
+  belongs_to :week
+end
+
+class SalesAndFinance < ApplicationRecord
+  belongs_to :week
+end
+
+class Target < ApplicationRecord
+  belongs_to :week
+end
+
+class Week < ApplicationRecord
+  has_many :sales_and_finance
+  has_many :operations_and_compliance
+  has_many :people
+  has_many :target
+
+  def generate_new_year(start_date)
+    current_date = Date.parse(start_date)
+    (1..52).each do |week_no|
+      week = Week.create!(
+        week_no: week_no,
+        date_commencing: current_date
+      )
+      SalesAndFinance.create!(week_id: week.id)
+      OperationsAndCompliance.create!(week_id: week.id)
+      Person.create!(week_id: week.id)
+      # Target.create!(week_id: week.id)
+      current_date = current_date + 7.days
+    end 
+  end
+end

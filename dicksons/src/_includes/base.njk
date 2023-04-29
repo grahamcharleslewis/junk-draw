@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dicksons</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+      /*
+       * Dickson's colours: 
+       *   - main #79142b
+       *   - highlight #ddc77d
+       */
+      
+      .small-logo { width: 120px; }
+      .logo { width: 200px; }
+
+      .w3-theme {
+        color: #fff !important; 
+        background-color: #79142b !important;
+      }
+      
+      .w3-border-theme, .w3-hover-border-theme:hover {
+        background-color: #79142b !important;
+        border-color: #79142b !important;
+      }
+
+      .w3-text-theme {
+        color: #fff !important; 
+        background-color: #79142b !important;
+      }
+      .w3-text-theme:hover {
+        color: #000 !important; 
+        background-color: #ddc77d !important;
+        border-radius: 3px !important;
+      }
+    </style>
+  </head>
+  
+  <body class="w3-theme">
+    <!-- Navbar -->
+    <div class="w3-content w3-padding-16" id="home">
+      <div class="w3-bar">
+        <div class="w3-left">
+          <a href="#home" class="">
+            <img src="../images/logo.png" class="logo w3-border-theme">
+          </a>
+        </div>
+        <div class="w3-right w3-hide-small">
+          <a href="#about" class="w3-bar-item w3-button w3-text-theme">About</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-text-theme">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page content -->
+    <div class="w3-content">
+      <header class="w3-display-container">
+        <img class="w3-image" src="../images/products.png" alt="Dicksons" width="1600" height="800">
+      </header>
+
+      <!-- About -->
+      <div class="w3-cell-row w3-padding-16" id="about">
+        <div class="w3-cell m6 w3-padding-16 w3-container">
+          <h1 class="w3-center">About</h1><br>
+          <h5 class="w3-large">A recipe for success...</h5>
+          <p class="w3-large">We're proud of our north eastern heritage and for over six decades have been passionate about creating our own selection of the finest quality products. Since 1953, each Dicksons’ recipe has carried our unique signature style – attention to detail, a respect for tradition and a taste for the new.</p>
+          <p class="w3-large">Over three generations our business has grown to more than 30 shops and we’re now the region’s largest family owned provider of meat and food products.</p>
+          <p class="w3-large">Quality ingredients, delicious recipes made with love and care, and a genuine sense of community;it’s our recipe for success.</p>
+        </div>
+
+        <div class="w3-cell m6 w3-padding-16 w3-container w3-cell-middle">
+          <iframe 
+            frameborder="0" 
+            allowfullscreen="1" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            title="Dicksons Promotional Video" 
+            width="480" 
+            height="240" 
+            src="https://www.youtube.com/embed/RYZa0LHNh0s?controls=1&amp;rel=0&amp;playsinline=0&amp;modestbranding=0&amp;autoplay=0&amp;enablejsapi=1&amp;origin=https%3A%2F%2Fmidickson.com&amp;widgetid=1" 
+            id="promo-video">
+          </iframe>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div class="w3-cell-row w3-padding-16" id="contact">
+        <div class="w3-cell m6 w3-padding-16 w3-container w3-cell-middle">
+          <iframe 
+            frameborder="0" 
+            scrolling="no" 
+            marginheight="0" 
+            marginwidth="0" 
+            width="100%" 
+            height="450" 
+            src="https://maps.google.com/maps?q=Unit%201%2C%20Heddon%20Way%2C%20South%20Shields%2C%20NE34%200NU&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=near" 
+            title="Unit 1, Heddon Way, South Shields, NE34 0NU" 
+            aria-label="Unit 1, Heddon Way, South Shields, NE34 0NU">
+          </iframe>
+        </div>
+
+        <div class="w3-cell m6 w3-padding-16 w3-center w3-container">
+          <header class="w3-container">
+            <h1>Contact</h1>
+          </header>
+          <div class="w3-container">
+            <p>Unit 1, Heddon Way, South Shields, NE34 0NU</p>
+            <p>0191 456 3540</p>
+            <p>enquiries@midickson.co.uk</p>
+
+            <table class="w3-table">
+              <tr>
+                <td class="w3-right">Monday</td><td>8:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Tuesday</td><td>8:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Wednesday</td><td>8:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Thursday</td><td>8:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Friday</td><td>8:00 – 17:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Saturday</td><td>8:00 – 11:00</td>
+              </tr>
+              <tr>
+                <td class="w3-right">Sunday</td><td>Closed</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-content w3-padding-64">
+      <p>
+        <img src="../images/logo.png" class="w3-left small-logo">
+        <span class="w3-right">Copyright &copy; 2022 Dicksons</span>
+      </p>
+    </footer>
+  </body>
+</html>

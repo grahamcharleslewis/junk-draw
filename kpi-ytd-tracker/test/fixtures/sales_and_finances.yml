@@ -1,0 +1,33 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  week_id: 1
+  lfl: 1.5
+  total_weekly_turnover: 1.5
+  delivery_turnover: 1.5
+  turnover: 1.5
+  budget: 1.5
+  footfall: 1.5
+  average_spend: 1.5
+  comments: MyText
+  hours_last_year: 1.5
+  hours_this_year: 1.5
+  spmh: 1.5
+  returns: 1.5
+  stock_balance: 1.5
+
+two:
+  week_id: 1
+  lfl: 1.5
+  total_weekly_turnover: 1.5
+  delivery_turnover: 1.5
+  turnover: 1.5
+  budget: 1.5
+  footfall: 1.5
+  average_spend: 1.5
+  comments: MyText
+  hours_last_year: 1.5
+  hours_this_year: 1.5
+  spmh: 1.5
+  returns: 1.5
+  stock_balance: 1.5

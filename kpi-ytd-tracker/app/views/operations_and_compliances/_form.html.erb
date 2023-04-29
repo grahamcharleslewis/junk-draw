@@ -1,0 +1,52 @@
+<%= form_with(model: operations_and_compliance) do |form| %>
+  <% if operations_and_compliance.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(operations_and_compliance.errors.count, "error") %> prohibited this operations_and_compliance from being saved:</h2>
+
+      <ul>
+        <% operations_and_compliance.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :week_id, style: "display: block" %>
+    <%= form.number_field :week_id %>
+  </div>
+
+  <div>
+    <%= form.label :essential_fs_and_legal, style: "display: block" %>
+    <%= form.text_field :essential_fs_and_legal %>
+  </div>
+
+  <div>
+    <%= form.label :retail_ops, style: "display: block" %>
+    <%= form.text_field :retail_ops %>
+  </div>
+
+  <div>
+    <%= form.label :health_and_safety, style: "display: block" %>
+    <%= form.text_field :health_and_safety %>
+  </div>
+
+  <div>
+    <%= form.label :uber_rating, style: "display: block" %>
+    <%= form.text_field :uber_rating %>
+  </div>
+
+  <div>
+    <%= form.label :just_eat, style: "display: block" %>
+    <%= form.text_field :just_eat %>
+  </div>
+
+  <div>
+    <%= form.label :eho, style: "display: block" %>
+    <%= form.text_field :eho %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

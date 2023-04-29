@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Infantry",
+    "description": "Cheapest unit to deploy. Can capture new bases, but has weak firepower",
+    "transport_unit": false,
+    "type": "ground",
+    "life": 99,
+    "fire_range": 1,
+    "vision_range": 2,
+    "movement_range": 3,
+    "weapons": [ 
+      {
+        "name": "Machine Gun",
+        "ammo": 1000000
+      } 
+    ]
+  },
+  {
+    "name": "Mechanised Infantry",
+    "description": "",
+    "transport_unit": false,
+    "type": "ground",
+    "life": 70,
+    "fire_range": 1,
+    "vision_range": 2,
+    "movement_range": 2,
+    "weapons": [
+      {
+        "name": "Bazzoka",
+        "ammo": 3
+      },
+      {
+        "name": "Machine Gun",
+        "ammo": 1000000
+      }
+    ]
+  }
+]
